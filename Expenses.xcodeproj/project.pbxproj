@@ -385,7 +385,7 @@
 			);
 			currentVersion = FC04C64C2BEC13010035E0B9 /* Model.xcdatamodel */;
 			name = Model.xcdatamodeld;
-			path = /Users/maheshlad/Desktop/Expenses/Expenses/Model.xcdatamodeld;
+			path = ../../../Expenses/Expenses/Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
