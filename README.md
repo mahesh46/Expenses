@@ -1,2 +1,2 @@
 # Expenses
-expense tracker and log with persistent data
+Expense tracker and log with persistent data.
