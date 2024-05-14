@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC04C64D2BEC13010035E0B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC04C64B2BEC13010035E0B9 /* Model.xcdatamodeld */; };
 		FC04C64F2BEC14120035E0B9 /* ExpenseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04C64E2BEC14120035E0B9 /* ExpenseRow.swift */; };
 		FC04C6512BEC144E0035E0B9 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04C6502BEC144E0035E0B9 /* AddExpenseView.swift */; };
 		FC04C6532BEC149D0035E0B9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04C6522BEC149D0035E0B9 /* ImagePicker.swift */; };
 		FC04C65A2BED28660035E0B9 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04C6592BED28660035E0B9 /* EditExpenseView.swift */; };
 		FC5FA1CB2BF0026700472EFA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5FA1CA2BF0026700472EFA /* Coordinator.swift */; };
 		FC6434BC2BF3AABC00B26C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6434BB2BF3AABC00B26C6F /* Assets.xcassets */; };
+		FC6434BF2BF3B43000B26C6F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6434BD2BF3B43000B26C6F /* Model.xcdatamodeld */; };
 		FC711AC42BEBC01B00A3C6AF /* ExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC711AC32BEBC01B00A3C6AF /* ExpensesApp.swift */; };
 		FC711AC62BEBC01B00A3C6AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC711AC52BEBC01B00A3C6AF /* ContentView.swift */; };
 		FC711ACB2BEBC01C00A3C6AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC711ACA2BEBC01C00A3C6AF /* Preview Assets.xcassets */; };
@@ -21,13 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC04C64C2BEC13010035E0B9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC04C64E2BEC14120035E0B9 /* ExpenseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRow.swift; sourceTree = "<group>"; };
 		FC04C6502BEC144E0035E0B9 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		FC04C6522BEC149D0035E0B9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FC04C6592BED28660035E0B9 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
 		FC5FA1CA2BF0026700472EFA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		FC6434BB2BF3AABC00B26C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6434BE2BF3B43000B26C6F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC711AC02BEBC01B00A3C6AF /* Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC711AC32BEBC01B00A3C6AF /* ExpensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesApp.swift; sourceTree = "<group>"; };
 		FC711AC52BEBC01B00A3C6AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				FC04C6522BEC149D0035E0B9 /* ImagePicker.swift */,
 				FC6434BB2BF3AABC00B26C6F /* Assets.xcassets */,
 				FC711AD42BEBC18200A3C6AF /* PersistenceController.swift */,
-				FC04C64B2BEC13010035E0B9 /* Model.xcdatamodeld */,
+				FC6434BD2BF3B43000B26C6F /* Model.xcdatamodeld */,
 				FC711AC92BEBC01C00A3C6AF /* Preview Content */,
 			);
 			path = Expenses;
@@ -164,7 +164,7 @@
 				FC04C64F2BEC14120035E0B9 /* ExpenseRow.swift in Sources */,
 				FC04C6532BEC149D0035E0B9 /* ImagePicker.swift in Sources */,
 				FC04C6512BEC144E0035E0B9 /* AddExpenseView.swift in Sources */,
-				FC04C64D2BEC13010035E0B9 /* Model.xcdatamodeld in Sources */,
+				FC6434BF2BF3B43000B26C6F /* Model.xcdatamodeld in Sources */,
 				FC711AD52BEBC18200A3C6AF /* PersistenceController.swift in Sources */,
 				FC5FA1CB2BF0026700472EFA /* Coordinator.swift in Sources */,
 			);
@@ -378,14 +378,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FC04C64B2BEC13010035E0B9 /* Model.xcdatamodeld */ = {
+		FC6434BD2BF3B43000B26C6F /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FC04C64C2BEC13010035E0B9 /* Model.xcdatamodel */,
+				FC6434BE2BF3B43000B26C6F /* Model.xcdatamodel */,
 			);
-			currentVersion = FC04C64C2BEC13010035E0B9 /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = ../../../Expenses/Expenses/Model.xcdatamodeld;
+			currentVersion = FC6434BE2BF3B43000B26C6F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
