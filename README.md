@@ -1,5 +1,5 @@
 # Expenses
-Expense tracker and log with persistent data.
+Expense tracker and log with persistent data. (coreData Example)
 
 
 <img width="256" alt="expense_2" src="https://github.com/mahesh46/Expenses/assets/3464277/d9c8f52a-89f8-449c-a8e9-d8395dbc24f4">
